@@ -1,6 +1,7 @@
 import React from "react";
 import MovieCard from "./MovieCard";
 
+
 // import MovieDetails from "./MovieDetails";
 
 function MoviesList({ movies }) {
@@ -14,6 +15,7 @@ function MoviesList({ movies }) {
             <>
               <div className="col col-md-6 col-lg-3" key={movies.id}>
                 <MovieCard movie={movies} />
+
               </div>
             </>
           );

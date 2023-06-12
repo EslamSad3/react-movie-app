@@ -13,7 +13,7 @@ const [movies,setMovies] = useState([])
       .then((res) => setMovies(res.data.results)) // resolve promise
       .catch((err)=> console.log(err)) // reject promise
   }, []);
-  return <MoviesList movies={movies} />;
+  return (<MoviesList movies={movies} />);
 }
 
 export default Movies;

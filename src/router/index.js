@@ -4,7 +4,7 @@ import Movies from "../pages/Movies";
 import MovieDetails from "./../pages/MovieDetails";
 import ContactUs from "./../pages/ContactUs";
 import NotFound from "../pages/NotFound";
-import Favorite from "../pages/Favorite";
+import Favorite from "../store/slices/Favorite";
 function Router() {
   return (
     <Routes>
